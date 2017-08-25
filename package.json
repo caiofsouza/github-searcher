@@ -1,25 +1,33 @@
 {
-  "name": "terminal-github",
-  "version": "1.0.0",
-  "description": "",
+  "name": "github-searcher",
+  "version": "0.0.1",
+  "description": "Terminal searcher/cloner of Github repositories",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "cli",
+    "github",
+    "terminal"
+  ],
+  "engines": {
+    "node": ">=7"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Caio Fernandes",
+    "email": "caio_fsouza@hotmail.com",
+    "url": "https://github.com/caiofsouza"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "github-searcher": "./index.js"
+  },
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.1.0",
-    "clear": "0.0.1",
-    "clui": "^0.3.6",
     "figlet": "^1.2.0",
     "github": "^9.3.1",
     "inquirer": "^3.2.2",
-    "lodash": "^4.17.4",
-    "minimist": "^1.2.0",
-    "preferences": "^0.2.1",
-    "simple-git": "^1.75.0",
-    "touch": "^3.1.0"
+    "ora": "^1.3.0"
   }
 }
