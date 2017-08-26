@@ -2,8 +2,18 @@
 A simple CLI searcher/cloner of Github repositories.
 
 ## Install
-```
+Install via NPM
+
+```sh
 $ npm install -g github-searcher
+```
+
+or via Git clone
+
+```sh
+$ git clone https://github.com/caiofsouza/github-searcher.git
+$ cd github-searcher
+$ npm install -g
 ```
 
 ## Usage
@@ -23,4 +33,6 @@ It will be cloned to the current path:
 
 <img src="images/clonning.png" width="629">
 
+## LICENSE
 
+MIT © Caio Fernandes.

@@ -1,7 +1,7 @@
 {
   "name": "github-searcher",
-  "version": "0.2.0",
-  "description": "Terminal searcher/cloner of Github repositories",
+  "version": "0.2.1",
+  "description": "A simple CLI searcher/cloner of Github repositories.",
   "main": "index.js",
   "keywords": [
     "cli",
@@ -32,6 +32,6 @@
   },
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/caiofsouza/GitHub-Searcher"
+    "url" : "https://github.com/caiofsouza/gitHub-searcher"
   }
 }
