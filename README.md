@@ -1,4 +1,7 @@
 # GitHub Searcher
+
+[![npm](https://img.shields.io/npm/v/github-searcher.svg)](https://www.npmjs.com/package/github-searcher)
+
 A simple CLI searcher/cloner of Github repositories.
 
 ## Install
