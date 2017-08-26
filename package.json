@@ -1,6 +1,6 @@
 {
   "name": "github-searcher",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Terminal searcher/cloner of Github repositories",
   "main": "index.js",
   "keywords": [
